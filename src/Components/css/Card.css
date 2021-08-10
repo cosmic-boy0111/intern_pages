@@ -1,0 +1,84 @@
+:root{
+    --scale:1;
+}
+
+.card{
+    width: 25%;
+    padding: 4rem 1.5rem;
+    /* background-color: red; */
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(235, 234, 234, 0.856);
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+}
+
+.info{
+    transition: all 1s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* transform: scale(2); */
+}
+
+
+.card span{
+    padding: 1rem;
+    border-radius: 50%;
+    background-color:  rgb(242 242 242 / 86%);
+}
+
+.card h4{
+    padding: 0.5rem 0;
+    opacity: 0.6;
+}
+
+.card h3{
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+}
+
+.card p{
+    text-align: justify-center;
+    font-size: 13px;
+    text-anchor: middle;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.card div a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.card div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1.5rem 0;
+}
+
+.card div .Page2{
+    padding: 0.3rem 0.3rem;
+    /* padding: 0 1.5rem; */
+    border-radius: 30px;
+    transition: all 0.7s ease-in-out;
+    width: 8rem;
+}
+
+.card div a:hover{
+    opacity: 0.7;
+    color: white;
+    background-color: rgb(5, 5, 185);
+}
+
+

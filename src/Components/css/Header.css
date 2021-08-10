@@ -1,0 +1,159 @@
+.header{
+    width: 100%;
+    height: 28vh;
+    /* border: 2px solid red; */
+    display: flex;
+    padding-bottom: 1.3rem;
+    border-bottom: 1px solid rgb(187, 186, 186);
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+}
+
+.header_nav{
+    width: 90%;
+    margin: 0 auto;
+    height: 10vh;
+    /* border: 2px solid black; */
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 3.2rem;
+    margin: 0 0.5rem;
+}
+
+.logo_info{
+    opacity: 0.6;
+    /* line-height: 0.5rem; */
+}
+
+.nav{
+    position: relative;
+}
+
+.nav .nav_comp{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background-color: rgba(2, 2, 172, 0.883);
+    width: 100px;
+    border-radius: 25px;
+    transition: all .5s ease 0s;
+}
+
+.col{
+    color: black;
+    transition: all .5s ease 0s;
+}
+
+.col:hover{
+    color: white;
+}
+
+.nav_comp:nth-child(1){
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.nav .start-home,.nav_comp:nth-child(1):hover~.animation{
+    width: 400px;
+    left: 0;
+}
+
+.nav_comp:nth-child(2){
+    width: 100px;
+}
+
+.nav .start-apis,.nav_comp:nth-child(2):hover~.animation{
+    width: 100px;
+    left: 400px;
+}
+
+.nav_comp:nth-child(3){
+    width: 100px;
+}
+
+.nav .start-usecase,.nav_comp:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 500px;
+}
+
+.nav_comp:nth-child(4){
+    width: 100px;
+}
+
+.nav .start-tools,.nav_comp:nth-child(4):hover~.animation{
+    width: 100px;
+    left: 600px;
+}
+
+.nav_comp:nth-child(5){
+    width: 100px;
+}
+
+.nav .start-login,.nav_comp:nth-child(5):hover~.animation{
+    width: 100px;
+    left: 700px;
+}
+
+
+
+/* .nav_comp{
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    color: black;
+} */
+
+
+/* .nav_comp:hover{
+    opacity: 0.7;
+    color: white;
+    background-color: rgb(5, 5, 185);
+} */
+
+
+.nav{
+    display: flex;
+}
+
+.nav_comp input{
+    outline: none;
+    border: none;
+}
+
+
+
+.find{
+    display: flex;
+    width: 50vh;
+    justify-content: flex-end;
+}

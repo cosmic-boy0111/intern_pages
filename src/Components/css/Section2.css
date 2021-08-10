@@ -1,0 +1,19 @@
+.section2{
+    width: 100%;
+    /* height: 500px; */
+}
+
+.section2_body{
+    width: 90%;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2_upper{
+    width: 100%;
+    padding: 2vh 5%;
+    opacity: 0.7;
+    border-bottom: 1px solid rgb(187, 186, 186);
+}

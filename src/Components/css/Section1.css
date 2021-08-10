@@ -1,0 +1,26 @@
+.section1{
+    width: 100%;
+
+}
+
+.section1_body{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    transition: all 1s ease 0s;
+
+}
+
+#info{
+    transition: all 1s ease-in-out;
+}
+
+.section1_body img{
+    width: 35%;
+    /* align-self: flex-end; */
+}

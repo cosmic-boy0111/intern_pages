@@ -1,0 +1,115 @@
+
+
+.section3_nav{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section3_nav a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    text-align: center;
+}
+
+.section3_nav .animation{
+    position: absolute;
+    height: 101%;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    /* border-radius: 25px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20;
+    border: 1px solid rgb(187, 186, 186) ;
+    border-bottom: none;
+    transition: all .7s ease 0s;
+}
+
+a:nth-child(1){
+    width: 100px;
+}
+
+
+.section3_nav .start-overview,a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+}
+
+a:nth-child(2){
+    width: 100px;
+}
+
+.section3_nav .start-quickstart,a:nth-child(2):hover~.animation{
+    width: 100px;
+    left: 100px;
+}
+
+a:nth-child(3){
+    width: 150px;
+}
+
+.section3_nav .start-documentation,a:nth-child(3):hover~.animation{
+    width: 150px;
+    left: 200px;
+}
+
+a:nth-child(4){
+    width: 100px;
+}
+
+.section3_nav .start-downloads,a:nth-child(4):hover~.animation{
+    width: 100px;
+    left: 355px;
+}
+
+.col2{
+    color: black;
+}
+
+/* .line{
+    z-index: -4;
+} */
+
+.overview{
+    z-index: -4;
+    border-top: 1px solid rgb(187, 186, 186);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 10;
+    /* height: 500px; */
+    background-color: white;
+    /* border: 2px solid red; */
+}
+
+.section3_body{
+    /* border: 2px solid red; */
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 10rem 0;
+
+}
+
+.blank{
+    width: 80%;
+    height: max;
+    background-color: rgb(240 240 242 / 84%);
+    border-radius: 10px;
+    margin-left: 1rem;
+    /* border: 2px solid red; */
+}
+
+.section3_info div{
+    margin-bottom: 3rem;
+}
+
+

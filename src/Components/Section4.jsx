@@ -59,8 +59,8 @@ const Section4 = (props) => {
             <div className="section3_nav">
                 <NavLink to="/page2" className="col2" onClick={()=>set()}>Overview</NavLink>
                 <NavLink to="/page3" className="col2" onClick={()=>set2()}>Quickstart</NavLink>
-                <a href='/page3' className="col2" onClick={()=>setStay('documentation')}>Documentation</a>
-                <a href='/page3' className="col2" onClick={()=>setStay('downloads')}>Downloads</a>
+                <NavLink to='/page3' className="col2" onClick={()=>setStay('documentation')}>Documentation</NavLink>
+                <NavLink to='/page3' className="col2" onClick={()=>setStay('downloads')}>Downloads</NavLink>
                 <div className={`animation start-${stay}`}></div>
             </div>
         </div>
@@ -109,12 +109,12 @@ const Section4 = (props) => {
             <div className="float_nav" style={{
                 display:show?'block':'none'
             }}>
-                <a href="#" onMouseOver={()=>func1()} style={{
+                <NavLink to="/page3" onMouseOver={()=>func1()} style={{
                     color:col?'white':'black'
-                }}>Request</a>
-                <a href="#" onMouseOver={()=>func2()} style={{
+                }}>Request</NavLink>
+                <NavLink to="/page3" onMouseOver={()=>func2()} style={{
                     color:col?'black':'white'
-                }}>Response</a>
+                }}>Response</NavLink>
                 <div className={`animation start-${stay2}`}></div>
             </div>
         </div>

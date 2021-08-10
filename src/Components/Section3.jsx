@@ -23,8 +23,8 @@ const Section3 = (props) => {
             <div className="section3_nav">
                 <NavLink to="/page2" className="col2" onClick={()=>set()}>Overview</NavLink>
                 <NavLink to="/page3" className="col2" onClick={()=>set2()}>Quickstart</NavLink>
-                <a href="#" className="col2" onClick={()=>setStay('documentation')}>Documentation</a>
-                <a href="#" className="col2" onClick={()=>setStay('downloads')}>Downloads</a>
+                <NavLink to="/page2" className="col2" onClick={()=>setStay('documentation')}>Documentation</NavLink>
+                <NavLink to="/page2" className="col2" onClick={()=>setStay('downloads')}>Downloads</NavLink>
                 <div className={`animation start-${stay}`}></div>
             </div>
         </div>
